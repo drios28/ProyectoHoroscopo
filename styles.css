@@ -1,0 +1,377 @@
+/*INDEX*/
+
+
+/*Header*/
+.encabezado {
+    height: 800px;
+    background-image: url("assets/img/fondo.jpg");
+    background-size:contain;
+    background-position:center;
+}
+
+/*Barra de navegacion*/
+.cabecera {
+    padding-top: 10px;
+    font-size: 20px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 999;
+}
+
+.cabecera a {
+    color: white;
+}
+
+.cabecera a:hover {
+    color: blueviolet;
+}
+
+.nombre {
+    text-align: center;
+}
+
+/*Titulos del header*/
+
+.nombre h1 {
+    color: white;
+    padding-top: 100px;
+    font-size: 170px;
+    font-family: 'New Rocker', cursive;
+}
+
+.nombre h2 {
+    color: white;
+}
+
+.nombre button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Boton */
+.boton {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    margin-top: 45px;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    padding-top: 7px;
+    ;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.boton:hover,
+.boton:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.boton:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+/*Quienes somos*/
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(black, rgb(31, 31, 31));
+    text-align: center;
+    height: 800px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.carousel-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel img {
+    border-radius: 15px;
+}
+
+.content-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+.content-container p {
+    color: white;
+    display: inline-block;
+    max-width: 500px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/*Body*/
+.contenedor {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: radial-gradient(rgb(55, 52, 57), rgb(30, 25, 25));
+}
+
+.contenedor div{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.contenedor h2{
+    color:black;
+    font-family: 'New Rocker', cursive;
+    font-size: 45px;
+}
+
+.contenedor label{
+    color:black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.contenedor form{
+    padding: 20px; 
+    text-align: center;
+    background-color: white;
+    max-width: 800px;
+}
+
+.contenedor #nombre{
+    width: 300px;
+    border-color: black;
+}
+
+
+.contenedor input[type=submit] {
+    border: blueviolet;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    color:white;
+    border-radius: 5px;
+    
+}
+
+.contenedor input[type=submit]:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+
+/*Footer*/
+footer {
+    text-align: center;
+    background-color: black;
+    padding: auto;
+    
+}
+
+
+footer .fila2 {
+    color: white;
+}
+
+
+/*FORM-DATOS*/
+
+
+/*Body*/
+.contenedor {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: radial-gradient(rgb(55, 52, 57), rgb(30, 25, 25));
+}
+
+.contenedor div{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.contenedor h2{
+    color:black;
+    font-family: 'New Rocker', cursive;
+    font-size: 45px;
+}
+
+.contenedor label{
+    color:black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.contenedor form{
+    padding: 20px; 
+    text-align: center;
+    background-color: white;
+    max-width: 800px;
+}
+
+.contenedor #nombre{
+    width: 300px;
+    border-color: black;
+}
+
+
+.contenedor input[type=submit] {
+    border: blueviolet;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    color:white;
+    border-radius: 5px;
+    
+}
+
+.contenedor input[type=submit]:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+
+/*FORM DATOS*/
+#h1Datos{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+#formDatos{
+    text-align: center;
+}
+
+#formDatos h2{
+    color:white
+}
+
+#formDatos label{
+    font-weight: bold;
+}
+
+
+#formDatos input[type=submit] {
+    border: blueviolet;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    color:white;
+    border-radius: 5px; 
+}
+
+#formDatos input[type=submit]:hover {
+        background-color: gray;
+        scale: 1.02;
+}
+
+
+#bodyDatos{
+    background-image: url("assets/img/fondo2.jpg");
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .encabezado {
+        height: 400px;
+    }
+
+    .nombre h1 {
+        font-size: 100px;
+    }
+
+    .nombre h2 {
+        font-size: 18px;
+    }
+
+    .boton {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .principal {
+        padding: 50px;
+    }
+
+    .content-container p {
+        max-width: 100%;
+    }
+
+
+
+    footer {
+        height: 80px;
+        padding-top: 10px;
+    }
+
+    footer .fila1 a i {
+        font-size: 1.5em;
+    }
+
+    footer .fila2 {
+        font-size: 12px;
+    }
+}
