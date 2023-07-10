@@ -6,6 +6,7 @@ include('header.php');
 <div class="container">
     <div class="row">
         <h1>Lista de predicciones del horóscopo tradicional</h1>
+        <a target='_blank' class='btn btn-success' href='crear_tradicional.php?id=" . $row["id"] . "'>Crear</a>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -45,7 +46,6 @@ include('header.php');
                         echo "<td scope='row'>" . $row["signo"] . "</td>";
                         echo "<td>" . $row["prediccion"] . "</td>";
                         echo "<td>
-                                    <a target='_blank' class='btn btn-success' href='crear_tradicional.php?id=" . $row["id"] . "'>Crear</a>
                                     <a target='_blank' class='btn btn-success' href='actualizar_tradicional.php?id=" . $row["id"] . "'>Editar</a>
                                     <button type='button' class='btn btn-danger eliminar-btn' data-bs-toggle='modal' data-bs-target='#exampleModal' data-id='" . $row["id"] . "'>Eliminar</button>
                             </td>";
